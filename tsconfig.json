@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "moduleResolution": "node",
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "lib": ["dom", "es2015", "es2016", "es2017", "es6"],
+    "outDir": "src/JsFiles",
+    "esModuleInterop": true,
+    "isolatedModules": false
+  },
+  "include": ["routes"],
+  "exclude": ["node_modules"]
+}

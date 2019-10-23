@@ -1,0 +1,121 @@
+#window {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+
+  #settings_zone {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    label {
+      cursor: pointer;
+    }
+    h1 {
+      margin-top: 40px;
+      font-size: 18px;
+      font-family: $font-Bahn;
+    }
+
+    input[type='text'] {
+      text-align: center;
+      width: 70%;
+      padding: 5px;
+      margin: 10px 0px;
+    }
+    input[type='text']:focus {
+      outline: none;
+      border-color: $gray;
+    }
+    input:hover {
+        opacity: 0.9;
+      }
+
+    #start_server, #start_spread, #stop_spread, #save_settings, #stop_server {
+      cursor: pointer;
+      margin-top: auto;
+      margin-bottom: auto;
+      padding: 10px 10px;
+      border: 1px solid $gray;
+      transition: all 0.1s;
+    }
+
+    #start_spread, #stop_spread, #stop_server {
+      display: none;
+    }
+
+    #start_server:hover, #start_spread:hover, #stop_spread:hover, #save_settings:hover, #stop_server:hover {
+      border: 2px solid $red;
+    }
+    #start_server:active, #start_spread:active, #stop_spread:active, #save_settings:active, #stop_server:active {
+      border: 1px solid $gray;
+      transform: translate(0px,3px);
+    }
+    #bk_states {
+      width: 80%;
+      height: 30%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+      input {
+        cursor: pointer;
+      }
+      div {
+        padding: 5px;
+      }
+    }
+  }
+  #info_zone {
+    width: 60%;
+    height: 100%;
+    border-left: 1px solid $gray;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    #info {
+      width: 100%;
+      height: 90%;
+      overflow: auto;
+      display: flex;
+      justify-content: space-between;
+      h1 {
+        font-size: 18px;
+        font-family: $font-Bahn;
+      }
+
+      #bot_logins {
+        text-align: center;
+        width: 40%;
+        height: 100%;
+      }
+
+      #bot_statuses {
+        text-align: center;
+        width: 60%;
+        height: 100%;
+      }
+    }
+    #refresh {
+      position: absolute;
+      top: 92%;
+      left: 45%;
+      width: 10%;
+      padding: 10px 10px;
+      cursor: pointer;
+
+      border: 1px solid $gray;
+      transition: all 0.1s;
+      &:hover {
+        border: 2px solid $red;
+      }
+      &:active {
+        border: 1px solid $gray;
+        transform: translate(0px,3px);
+      }
+    }
+  }
+}

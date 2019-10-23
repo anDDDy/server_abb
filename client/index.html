@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>NHbet server app</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/normolize.css">
+</head>
+
+<body>
+  <div id="window">
+    <section id="settings_zone">
+      <h1>Данные AllBestBets</h1>
+      <div id="bk_states">
+        <div><input type="checkbox" id="FILTER1" name="FILTER1"><label for="FILTER1">FILTER1</label></div>
+        <div><input type="checkbox" id="FILTER2" name="FILTER2"><label for="FILTER2">FILTER2</label></div>
+        <div><input type="checkbox" id="FILTER3" name="FILTER3"><label for="FILTER3">FILTER3</label></div>
+        <div><input type="checkbox" id="FILTER4" name="FILTER4"><label for="FILTER4">FILTER4</label></div>
+        <div><input type="checkbox" id="FILTER5" name="FILTER5"><label for="FILTER5">FILTER5</label></div>
+        <div><input type="checkbox" id="FILTER6" name="FILTER6"><label for="FILTER6">FILTER6</label></div>
+        <div><input type="checkbox" id="FILTER7" name="FILTER7"><label for="FILTER7">FILTER7</label></div>
+        <div><input type="checkbox" id="FILTER8" name="FILTER8"><label for="FILTER8">FILTER8</label></div>
+      </div>
+      <input type="text" id="access_token" placeholder="ACCESS TOKEN ABB">
+      <div id="save_settings">Сохранить настройки</div>
+      <div id="start_server">Запустить сервер</div>
+      <div id="start_spread">Запустить раздачу</div>
+      <div id="stop_spread">Остановить раздачу</div>
+      <div id="stop_server">Остановить сервер</div>
+    </section>
+    <section id="info_zone">
+      <div id="info">
+        <div id="bot_logins">
+          <h1 class="logins_header">Машина</h1>
+          <p id="1"></p>
+        </div>
+        <div id="bot_statuses">
+          <h1 class="statuses_header">Последний запрос</h1>
+        </div>
+      </div>
+      <div id="refresh">Обновить</div>
+    </section>
+  </div>
+  <div id="status_bar">
+    <p id="status_status">Состояние сервера: </p>
+  </div>
+  <script src="./scripts/gui.js"></script>
+  <script src="./scripts/script.js"></script>
+</body>
+
+</html>

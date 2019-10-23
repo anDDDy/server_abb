@@ -1,0 +1,228 @@
+{
+  message: {
+    access_token: 'ACCESS_TOKEN_ABB',
+    filter_1: false,
+    filter_2: false,
+    filter_3: false,
+    filter_4: false,
+    filter_5: true,
+    filter_6: false,
+    filter_7: true,
+    filter_8: true
+  },
+  level: 'info',
+  label: 'E:\\gitHub\\server_abb\\routes\\api.js',
+  timestamp: '2019-10-23T13:40:16.370Z'
+}
+{
+  message: {
+    access_token: 'ACCESS_TOKEN_ABB',
+    filter_1: false,
+    filter_2: false,
+    filter_3: false,
+    filter_4: false,
+    filter_5: true,
+    filter_6: false,
+    filter_7: true,
+    filter_8: true
+  },
+  level: 'info',
+  label: 'E:\\gitHub\\server_abb\\routes\\api.js',
+  timestamp: '2019-10-23T13:40:17.526Z'
+}
+{
+  message: [ 4, 6, 7, 8 ],
+  level: 'info',
+  label: 'E:\\gitHub\\server_abb\\routes\\src\\worker\\parser.js',
+  timestamp: '2019-10-23T13:40:18.606Z'
+}
+{
+  message: {
+    access_token: 'ACCESS_TOKEN_ABB',
+    filter_1: false,
+    filter_2: false,
+    filter_3: false,
+    filter_4: false,
+    filter_5: true,
+    filter_6: false,
+    filter_7: true,
+    filter_8: true
+  },
+  level: 'info',
+  label: 'E:\\gitHub\\server_abb\\routes\\api.js',
+  timestamp: '2019-10-23T13:40:42.082Z'
+}
+{
+  message: [ 4, 6, 7, 8 ],
+  level: 'info',
+  label: 'E:\\gitHub\\server_abb\\routes\\src\\worker\\parser.js',
+  timestamp: '2019-10-23T13:40:48.671Z'
+}
+{
+  message: 'WS:true|AC:3',
+  level: 'info',
+  label: 'E:\\gitHub\\server_abb\\routes\\src\\worker\\parser.js',
+  timestamp: '2019-10-23T13:40:54.672Z'
+}
+{
+  message: 'WS:true|AC:3',
+  level: 'info',
+  label: 'E:\\gitHub\\server_abb\\routes\\src\\worker\\parser.js',
+  timestamp: '2019-10-23T13:41:00.675Z'
+}
+{
+  message: 'REQ.STATUS: 400',
+  level: 'info',
+  label: 'E:\\gitHub\\server_abb\\routes\\src\\worker\\parser.js',
+  timestamp: '2019-10-23T13:41:01.081Z'
+}
+{
+  message: 'ERROR REQ.STATUS: 400',
+  level: 'error',
+  label: 'E:\\gitHub\\server_abb\\routes\\src\\worker\\parser.js',
+  timestamp: '2019-10-23T13:41:01.085Z'
+}
+{
+  message: 'WS:true|AC:3',
+  level: 'info',
+  label: 'E:\\gitHub\\server_abb\\routes\\src\\worker\\parser.js',
+  timestamp: '2019-10-23T13:41:07.085Z'
+}
+{
+  message: 'REQ.STATUS: 400',
+  level: 'info',
+  label: 'E:\\gitHub\\server_abb\\routes\\src\\worker\\parser.js',
+  timestamp: '2019-10-23T13:41:07.482Z'
+}
+{
+  message: 'ERROR REQ.STATUS: 400',
+  level: 'error',
+  label: 'E:\\gitHub\\server_abb\\routes\\src\\worker\\parser.js',
+  timestamp: '2019-10-23T13:41:07.483Z'
+}
+{
+  message: 'WS:true|AC:3',
+  level: 'info',
+  label: 'E:\\gitHub\\server_abb\\routes\\src\\worker\\parser.js',
+  timestamp: '2019-10-23T13:41:13.485Z'
+}
+{
+  message: 'WS:true|AC:3',
+  level: 'info',
+  label: 'E:\\gitHub\\server_abb\\routes\\src\\worker\\parser.js',
+  timestamp: '2019-10-23T13:41:19.487Z'
+}
+{
+  message: 'WS:true|AC:3',
+  level: 'info',
+  label: 'E:\\gitHub\\server_abb\\routes\\src\\worker\\parser.js',
+  timestamp: '2019-10-23T13:41:25.488Z'
+}
+{
+  message: {
+    access_token: 'ACCESS_TOKEN_ABB',
+    filter_1: false,
+    filter_2: false,
+    filter_3: false,
+    filter_4: false,
+    filter_5: true,
+    filter_6: false,
+    filter_7: true,
+    filter_8: true
+  },
+  level: 'info',
+  label: 'E:\\gitHub\\server_abb\\routes\\api.js',
+  timestamp: '2019-10-23T13:43:43.591Z'
+}
+{
+  message: {
+    access_token: 'ACCESS_TOKEN_ABB',
+    filter_1: false,
+    filter_2: false,
+    filter_3: false,
+    filter_4: false,
+    filter_5: true,
+    filter_6: false,
+    filter_7: true,
+    filter_8: true
+  },
+  level: 'info',
+  label: 'E:\\gitHub\\server_abb\\routes\\api.js',
+  timestamp: '2019-10-23T13:43:45.309Z'
+}
+{
+  message: [ 4, 6, 7, 8 ],
+  level: 'info',
+  label: 'E:\\gitHub\\server_abb\\routes\\src\\worker\\parser.js',
+  timestamp: '2019-10-23T13:43:46.889Z'
+}
+{
+  message: {
+    access_token: 'ACCESS_TOKEN_ABB',
+    filter_1: false,
+    filter_2: false,
+    filter_3: false,
+    filter_4: false,
+    filter_5: true,
+    filter_6: false,
+    filter_7: true,
+    filter_8: true
+  },
+  level: 'info',
+  label: 'E:\\gitHub\\server_abb\\routes\\api.js',
+  timestamp: '2019-10-23T13:43:49.529Z'
+}
+{
+  message: 'WS:true|AC:3',
+  level: 'info',
+  label: 'E:\\gitHub\\server_abb\\routes\\src\\worker\\parser.js',
+  timestamp: '2019-10-23T13:43:52.887Z'
+}
+{
+  message: 'WS:true|AC:3',
+  level: 'info',
+  label: 'E:\\gitHub\\server_abb\\routes\\src\\worker\\parser.js',
+  timestamp: '2019-10-23T13:43:58.889Z'
+}
+{
+  message: 'REQ.STATUS: 400',
+  level: 'info',
+  label: 'E:\\gitHub\\server_abb\\routes\\src\\worker\\parser.js',
+  timestamp: '2019-10-23T13:43:59.290Z'
+}
+{
+  message: 'ERROR REQ.STATUS: 400',
+  level: 'error',
+  label: 'E:\\gitHub\\server_abb\\routes\\src\\worker\\parser.js',
+  timestamp: '2019-10-23T13:43:59.290Z'
+}
+{
+  message: 'WS:true|AC:3',
+  level: 'info',
+  label: 'E:\\gitHub\\server_abb\\routes\\src\\worker\\parser.js',
+  timestamp: '2019-10-23T13:44:05.290Z'
+}
+{
+  message: 'REQ.STATUS: 400',
+  level: 'info',
+  label: 'E:\\gitHub\\server_abb\\routes\\src\\worker\\parser.js',
+  timestamp: '2019-10-23T13:44:05.833Z'
+}
+{
+  message: 'ERROR REQ.STATUS: 400',
+  level: 'error',
+  label: 'E:\\gitHub\\server_abb\\routes\\src\\worker\\parser.js',
+  timestamp: '2019-10-23T13:44:05.833Z'
+}
+{
+  message: 'WS:true|AC:3',
+  level: 'info',
+  label: 'E:\\gitHub\\server_abb\\routes\\src\\worker\\parser.js',
+  timestamp: '2019-10-23T13:44:11.835Z'
+}
+{
+  message: 'WS:false|AC:3',
+  level: 'info',
+  label: 'E:\\gitHub\\server_abb\\routes\\src\\worker\\parser.js',
+  timestamp: '2019-10-23T13:44:17.836Z'
+}

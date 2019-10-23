@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap");
+#status_bar {
+  display: flex;
+  height: 5vh;
+  background-color: #212121;
+  color: white;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  -webkit-app-region: drag; }
+  #status_bar #status_status {
+    padding-left: 5px;
+    font-size: 14px;
+    font-family: Montserrat; }
+
+#window {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center; }
+  #window #settings_zone {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    #window #settings_zone label {
+      cursor: pointer; }
+    #window #settings_zone h1 {
+      margin-top: 40px;
+      font-size: 18px;
+      font-family: Didact Gothic; }
+    #window #settings_zone input[type='text'] {
+      text-align: center;
+      width: 70%;
+      padding: 5px;
+      margin: 10px 0px; }
+    #window #settings_zone input[type='text']:focus {
+      outline: none;
+      border-color: #3e3e3e; }
+    #window #settings_zone input:hover {
+      opacity: 0.9; }
+    #window #settings_zone #start_server, #window #settings_zone #start_spread, #window #settings_zone #stop_spread, #window #settings_zone #save_settings, #window #settings_zone #stop_server {
+      cursor: pointer;
+      margin-top: auto;
+      margin-bottom: auto;
+      padding: 10px 10px;
+      border: 1px solid #3e3e3e;
+      transition: all 0.1s; }
+    #window #settings_zone #start_spread, #window #settings_zone #stop_spread, #window #settings_zone #stop_server {
+      display: none; }
+    #window #settings_zone #start_server:hover, #window #settings_zone #start_spread:hover, #window #settings_zone #stop_spread:hover, #window #settings_zone #save_settings:hover, #window #settings_zone #stop_server:hover {
+      border: 2px solid #cc4a4a; }
+    #window #settings_zone #start_server:active, #window #settings_zone #start_spread:active, #window #settings_zone #stop_spread:active, #window #settings_zone #save_settings:active, #window #settings_zone #stop_server:active {
+      border: 1px solid #3e3e3e;
+      transform: translate(0px, 3px); }
+    #window #settings_zone #bk_states {
+      width: 80%;
+      height: 30%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center; }
+      #window #settings_zone #bk_states input {
+        cursor: pointer; }
+      #window #settings_zone #bk_states div {
+        padding: 5px; }
+  #window #info_zone {
+    width: 60%;
+    height: 100%;
+    border-left: 1px solid #3e3e3e;
+    display: flex;
+    justify-content: space-between;
+    position: relative; }
+    #window #info_zone #info {
+      width: 100%;
+      height: 90%;
+      overflow: auto;
+      display: flex;
+      justify-content: space-between; }
+      #window #info_zone #info h1 {
+        font-size: 18px;
+        font-family: Didact Gothic; }
+      #window #info_zone #info #bot_logins {
+        text-align: center;
+        width: 40%;
+        height: 100%; }
+      #window #info_zone #info #bot_statuses {
+        text-align: center;
+        width: 60%;
+        height: 100%; }
+    #window #info_zone #refresh {
+      position: absolute;
+      top: 92%;
+      left: 45%;
+      width: 10%;
+      padding: 10px 10px;
+      cursor: pointer;
+      border: 1px solid #3e3e3e;
+      transition: all 0.1s; }
+      #window #info_zone #refresh:hover {
+        border: 2px solid #cc4a4a; }
+      #window #info_zone #refresh:active {
+        border: 1px solid #3e3e3e;
+        transform: translate(0px, 3px); }
+
+body {
+  height: 100%;
+  font-size: 16px;
+  background-color: white;
+  color: black;
+  user-select: none;
+  overflow: hidden;
+  font-family: Montserrat; }
+  body h1 {
+    margin: 0; }
+
+#window {
+  height: 95vh;
+  width: 100%;
+  display: flex; }
+
+/*# sourceMappingURL=style.css.map */
