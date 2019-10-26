@@ -18,9 +18,9 @@ const CORRELATOR = {
   id11: 6 // 888sport <CHECK IT LATER *BOOKMAKER_CLONE* HUY EGO ZNAET>
 }
 // BK req URLS
-const FILTER_1_ID = "329504";
-const FILTER_2_ID = "329512";
-const FILTER_3_ID = "329508";
+const FILTER_1_ID = "334309";
+const FILTER_2_ID = "334310";
+const FILTER_3_ID = "334311";
 const FILTER_4_ID = "329510";
 const FILTER_5_ID = "329514";
 const FILTER_6_ID = "329519";
