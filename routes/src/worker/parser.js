@@ -138,10 +138,12 @@ let reqFunc = filterId => {
       return res;
     } else {
       log.error(`ERROR REQ.STATUS: ${xhr.status}`);
+      console.log(`ERROR REQ.STATUS: ${xhr.status}`);
       return null
     };
   } catch (e) {
     log.error(`ERROR REQUEST:\n ${e.message}`);
+    console.log(`ERROR REQUEST:\n ${e.message}`);
     return null;
   }
 }
@@ -164,6 +166,7 @@ let createJSONArray = resList => {
       }
     } catch (e) {
       log.error(`ERROR BK NUMBER: ${e.message}`);
+      console.log(`ERROR BK NUMBER: ${e.message}`)
       bk_num = betList[0].bookmaker_id;
     }
     // For each of bets doing:
@@ -220,13 +223,15 @@ let createJSONArray = resList => {
         jsObj.full_name = fullNames[jsObj.mv].replace("%s", jsObj.value);
         result.push(jsObj);
       } else {
-        log.error(`PARSE ERROR(CANT FIND):\n ${JSON.stringify(el)}`)
+        log.error(`PARSE ERROR(CANT FIND):\n ${JSON.stringify(el)}`);
+        console.log(`PARSE ERROR(CANT FIND):\n ${JSON.stringify(el)}`);
       }
     });
     let bk_id = CORRELATOR[`id${bk_num}`];
     req_bk_data[bk_id] = req_bk_data[bk_id].concat(result);
   } catch (e) {
     log.error(`ERROR IN createJSONArray ${e.message}`);
+    console.log(`ERROR IN createJSONArray ${e.message}`);
   };
 }
 // Checking bet's for excluding by it's ID
@@ -241,10 +246,12 @@ let excludeFunc = () => {
   try {
     let bet_id = toExclude.shift();
     log.info(`EXCLUDED: ${bet_id}`);
+    console.log(`EXCLUDED: ${bet_id}`);
     xhr.open('POST', `https://api-pr.allbestbets.com/api/v1/excluded/bets/${bet_id}?access_token=${access_token}`, false);
     xhr.send();
   } catch (e) {
     log.error(`ERROR EXCLUDE:\n ${e.message}`);
+    console.log(`ERROR EXCLUDE:\n ${e.message}`);
   }
 }
 // Clear the request's data of previous turn
